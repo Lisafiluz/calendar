@@ -1,0 +1,36 @@
+.exact_date {
+  display: flex;
+}
+
+#dates {
+  text-align: center;
+}
+
+.event_line {
+  width: 80%;
+  margin-left: 2em;
+  margin-bottom: 0.5em;
+  border: 1px solid black;
+  padding: 0.2em;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1em 1fr;
+  grid-gap: 0.6em;
+}
+
+.duration {
+  font-size: small;
+}
+
+.event-title {
+  text-decoration: none;
+}
+
+/** Event availability */
+.busy {
+  background-color: rgb(96, 155, 235)
+}
+
+.free {
+  background-color: rgba(241, 243, 244, 0.74)
+}
